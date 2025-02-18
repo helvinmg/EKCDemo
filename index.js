@@ -13,6 +13,10 @@ app.get("/contact",(req,res)=>
 {
             res.send("<h1>Contact Page</h1>")
 })
+app.get("/services",(req,res)=>
+{
+            res.send("<h1>Service Page</h1>")
+})
 app.use((req,res)=>{
     res.send("<h1>404 Page Not Found</h1>")
 })
